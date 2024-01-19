@@ -440,7 +440,7 @@ nav ul li a:hover::after{
         position: fixed;
         right: -500px;
         width: 239px;
-        height: 20%;
+        height: 40%;
         background-color: #fffcec;;
         transition: .5s;
         z-index: 10;
