@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="styleport.css" type="text/css" rel="stylesheet">
+    <link href="reset.css" type="text/css" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/logo2.png" type="img/png">
+    <link href='https://fonts.googleapis.com/css?family=Imbue' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Notable' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content= "IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <script src="https://kit.fontawesome.com/7963e26ff3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div>
+    <img src="assets/logo1.png" class="background"/>
+</div>
+<!-- --------------------navigation ------------------------ -->
+<header>
+    <div class="header-text">
+        <h2>Aisa Blanka Szakal <img class="dots1"src="assets/dots2.png"/></h2>
+    </div>
+    <div class="container">
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="#middle">School Projects</a></li>
+                <li><a href="#middle2">Personal Projects</a></li>
+                <li><a href="#down">Story</a></li>
+                <li><a href="#down2">Contacts</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- -------for phone--------- -->
+    <div class="navigation">
+        <button class="hamburger" onclick="show()">
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>
+        </button>
+
+        <nav class="nav2">
+            <ul>
+                <li><a href="#middle">School Projects</a></li>
+                <li><a href="#middle2">Personal Projects</a></li>
+                <li><a href="#down">Story</a></li>
+                <li><a href="#down2">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<!-- --------------------home ------------------------ -->
+    
+    <div class="maintext">
+        <h3>Hi!<br> I'm a first year <br> media design student at Fontys.</h1>
+    </div>
+</div>
+<!-- --------------------School projects ------------------------ -->
+<section id="middle">
+    <div class="container">
+        <h2 class="sub-title">School Projects <img class="dots1"src="assets/dots3.png"/></h2>
+        <div class="work-list">
+            <div class="work">
+                <div class="layer" onclick="window.location.href='project1.html'">
+                    <h3>The Pizzeria Project</h3>
+                    <p>My group - called Judis was working on finding a solution to modernise the pizzeria. Therefor we made a costumer and an employee website, and we built a smart oven as well. In the project my work was to build a design for the website. <br>To see a more detailed insight, and the learning outcomes, click!</p>
+                </div>
+                <img src="assets/judisaisa.png"/>
+            </div>
+            <div class="work">
+                <div class="layer" onclick="window.location.href='project2.html'">
+                    <h3>The Ordinary Minds</h3>
+                    <p>My group - The Ordinary Minds is working on making a website which can help to solve university students daily problems, and struggles, so they can focus on their mental health and studies.<br> To see a more detailed insight, and the learning outcomes, click!</p>
+                </div>
+                <img src="assets/theomaisa.png"/>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- --------------------Personal projects ------------------------ -->
+<section id="middle2">
+    <div class="container">
+        <h2 class="sub-title">Personal Projects<img class="dots4" src="assets/dots4.png"/></h2>
+        <table>
+            <tr>
+              <td class="personal"><span class="colorbar">Working with Colorbar</span><br>Colorbar is a store that collects
+                 vintage and designer furniture, for people, who are planning to decorate their homes uniquely.
+                 <br>My job was to put together selling items, and take pictures, and small clips of them, 
+                 <br>then before publishing it I had to edit everything to bring out the same atmosphere of every post. 
+                 <br>Finally, I just had to publish them on social media sites so customers could easily see the idea of
+                  each piece of furniture.</p></td>
+              <td><img src="assets/colorbaraisa.png" class="wide-image"/></td>
+            </tr>
+            <tr>
+              <td class="personal"><span class="colorbar">Taking and recording amateur photos and videos</span>
+                <br>A few years ago I started to take small clips every time I traveled. To make a whole video<br>
+                 I started to experience the editing part of it as well.<br> I truly enjoy the time to build these small "journals",
+                  but I still have to learn much more about them.
+                <br>Photography is my other hobby. To deepen my knowledge I started to work with film cameras 
+                <br>with the goal of learning more about the history of photography.</p></td>
+              <td><img src="assets/aisamedia.png" class="wide-image2"/></td> 
+            </tr>
+          </table>
+
+<!----------------My story--------------------->
+<section id="down">
+    <div class="container">
+        <div class="row">
+            <div class="story-col-1">
+                <img src="assets/storyme1.png"/>
+            </div>
+            <div class="story-col-2">
+                <h2 class="title">My Story<img class="dots4" src="assets/dots6.png"/></h2>
+                <p class="storyline"> I am a student at Fontys Hogeschool (Eindhoven) and I am in  a period 
+                    now when focusing on developing my characteristics and discovering the proper path are essential. 
+                    I am enjoying the process of mastering ICT skills and, <br>learning and about different cultures
+                    through school.
+                    </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links"onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links"onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span>HTML & CSS</span><br>Intemidiate level.</li>
+                        <li><span>Communicative</span><br>I have a genuine interest in other people's stories, 
+                            therefore I try to ask insightful questions and to engage in meaningful conversations.</li>
+                        <li><span>Reliable</span><br>I dislike leaving anything unfinished I try to stay committed to a task.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>Online marketing</span><br>For a Designer and vintage furniture shop.</li>
+                        <li><span>Voluntering</span><br>At the design section of the Opera house of Budapest</li>
+                        <li><span>Tutoring</span><br>I tutored math for younger students</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>2017-2023</span><br>Móricz Zsigmond Gimnázium</li>
+                        <li><span>2022.05.21.-06.21</span><br>Universitá per Stanieri Dante Alighieri </li>
+                        <li><span>2023-</span><br>Fontys Hogeschool - ICT</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ----------------Contact --------------  -->
+<section id="down2">
+     <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h2 class="sub-title"> <img class="dots5" src="assets/dots5.png" >Contact me</h2>
+                    <br><a href="mailto: aisaszakal@gmail.com">Email me now!</a>
+                    <a href="tel:+31639686580">Or just call.</a>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/aisaszakal/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.pinterest.com/aisaszakal/"target="_blank"><i class="fa-brands fa-pinterest"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links")
+    var tabcontents = document.getElementsByClassName("tab-contents")
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+    function show(){
+    document.querySelector('.hamburger').classList.toggle('open')
+    document.querySelector('.navigation').classList.toggle('active')
+}
+
+</script>
+</body>
+</html>
